@@ -1,15 +1,18 @@
 import streamlit as st
 import time
-from bot import chatbaby
+from chain import run
 
-st.title('NIT Kurukestra Bot')
+st.title('NIT Kurukestra Bot 💫')
 st.markdown('---')
+
+
+bot_image = './assets/logo.png'
 
 if 'chat_history' not in st.session_state:
     st.session_state['chat_history'] = [{"role": "model", "parts": "Great to meet you. What would you like to know?"}]
 
 for chat in st.session_state['chat_history']:
-    role = '🤖' if chat['role'] == 'model' else chat['role']
+    role = 'assistant' if chat['role'] == 'model' else chat['role']
     with st.chat_message(role):
         st.write(chat['parts'])
 
@@ -21,11 +24,11 @@ if prompt:
         with st.chat_message("user"):
             st.write(prompt)
 
-        with st.chat_message("🤖"):
+        with st.chat_message("assistant"):
             message_placeholder = st.empty()
             message_placeholder.write("Loading...")
 
-        bot_reply = chatbaby(st.session_state['chat_history'], prompt)
+        bot_reply = run(st.session_state['chat_history'], prompt)
         st.session_state['chat_history'].append({'role': 'model', 'parts': bot_reply})
 
         message_placeholder.write(bot_reply)
