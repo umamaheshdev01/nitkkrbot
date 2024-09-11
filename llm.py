@@ -7,5 +7,3 @@ def generate(template,prompt):
     response = model.generate_content(template+prompt)
     return response.text
 
-
-print(generate('Who is president of ','Pakistan and India'))
