@@ -7,3 +7,4 @@ def generate(template,prompt):
     response = model.generate_content(template+prompt)
     return response.text
 
+print(generate('CS-C section strength is 90 students','im from CS-C section what is my class strength'))
