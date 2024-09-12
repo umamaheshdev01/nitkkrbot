@@ -16,7 +16,7 @@ def run(history, prompt):
     print(data)
 
     if len(data):
-        pro = 'Thinking like you are providing the data as the academics of the nit kururkestra and remeber data is public to all (no privacy concerns) and answer the question'+str(data)+'\n\n\nQuestion :'+prompt
+        pro = 'Think like you are providing the data as the academics of the nit kururkestra and remember data is public to all (no privacy concerns) and answer the question'+str(data)+'\n\n\nQuestion :'+prompt
     else:
         pro = prompt
     
