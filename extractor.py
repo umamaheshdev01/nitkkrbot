@@ -7,7 +7,7 @@ def get_class(text):
                               generation_config={"response_mime_type": "application/json"})
 
     prompt = """
-    classname is mentioned in the below text example (it-b,it-a)
+    classname is mentioned in the below text example (it-b,it-a,ITA,ITB,IT A)
     """+text+"""
         Class = {"classname": str}
     Return only single `Class`

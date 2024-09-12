@@ -5,6 +5,7 @@ data = [
     {
         "className": "IT-A",
         "strength": 80,
+        "Class Representative or CR": 'Punith Raj',
         "syllabus": {
             "Machine Learning": [
                 "Unit-1 Introduction",
@@ -39,12 +40,14 @@ data = [
                 "Unit 4. System and Operating Security",
                 "Unit 5. Network Security"
             ]
-        }
+        },
+        
     },
+     
     {
         "className": "IT-B",
         "strength": 80,
-        "Class Representative": 'Mrunmai Lakade',
+        "Class Representative or CR": 'Mrunmai Lakade',
         "syllabus": {
             "Machine Learning": [
                 "Unit-1 Introduction",
@@ -79,7 +82,96 @@ data = [
                 "Unit 4. System and Operating Security",
                 "Unit 5. Network Security"
             ]
+        },
+        "students" :   {
+    "section": "IT-B",
+    "subsection": "IT-08",
+    "name & roll_no": [
+        {
+        "roll_number": "12213144",
+        "name": "RASHMI SHAW"
+        },
+        {
+        "roll_number": "12213145",
+        "name": "MANSI SARKAR"
+        },
+        {
+        "roll_number": "12213146",
+        "name": "TAMANNA"
+        },
+        {
+        "roll_number": "12213147",
+        "name": "JARUPLA BHAGYASREE"
+        },
+        {
+        "roll_number": "12213148",
+        "name": "AKHIL MEENA"
+        },
+        {
+        "roll_number": "12213149",
+        "name": "CHEVURI SAI KIRAN"
+        },
+        {
+        "roll_number": "12213150",
+        "name": "UMAR AHMAD"
+        },
+        {
+        "roll_number": "12213151",
+        "name": "SANTHOSH KUMAR BHUKYA"
+        },
+        {
+        "roll_number": "12213152",
+        "name": "AYUSH MINZ"
+        },
+        {
+        "roll_number": "12213153",
+        "name": "ANOOP SINGH"
+        },
+        {
+        "roll_number": "12213154",
+        "name": "SHASHANK SINGH"
+        },
+        {
+        "roll_number": "12213155",
+        "name": "KORRA PRADEEP KUMAR"
+        },
+        {
+        "roll_number": "12213156",
+        "name": "ADITYA ARYAN"
+        },
+        {
+        "roll_number": "12213157",
+        "name": "SAHIL DAGAR"
+        },
+        {
+        "roll_number": "12213158",
+        "name": "NITISH KUMAR"
+        },
+        {
+        "roll_number": "12213159",
+        "name": "SANYAM"
+        },
+        {
+        "roll_number": "12213160",
+        "name": "PORAS YADAV"
+        },
+        {
+        "roll_number": "12213161",
+        "name": "AARAV SRIVASTAVA"
+        },
+        {
+        "roll_number": "12213162",
+        "name": "BADAL"
+        },
+        {
+        "roll_number": "12213163",
+        "name": "KUNAL"
+        },
+        {
+        "roll_number": "12213164",
+        "name": "NITESH"
         }
+    ]}
     }
 ]
 
